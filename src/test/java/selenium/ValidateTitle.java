@@ -45,7 +45,7 @@ public class ValidateTitle extends Base {
 		log.info("succesfully validated text message");
 	}
 
-	// click on each link and check if the pages are opening/not
+	// Get the count of links and get the name
 	@Test(priority = 3)
 	public void GetAllLinks() {
 		int num = landing.getLinks().size();
