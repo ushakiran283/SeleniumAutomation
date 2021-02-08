@@ -1,5 +1,7 @@
 package objectRepository;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +17,7 @@ public class LandingPageObjects {
 	private By login = By.cssSelector("a[href*='sign_in']");
 	private By featuredCourses = By.xpath("//h2[text()='Featured Courses']");
 	private By header = By.xpath("//h3[text()='An Academy to learn Everything about Testing']");
+	private By links = By.tagName("a");
 
 	public LoginPageObjects getLogin() {
 		driver.findElement(login).click();
@@ -28,6 +31,10 @@ public class LandingPageObjects {
 
 	public WebElement getHeader() {
 		return driver.findElement(header);
+	}
+
+	public List<WebElement> getLinks() {
+		return driver.findElements(links);
 	}
 
 }

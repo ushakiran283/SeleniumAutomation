@@ -8,10 +8,9 @@
     <classes>
       <class name="selenium.ValidateTitle">
         <methods>
-          <include name="VerifyHeader"/>
-          <include name="VerifyTitle"/>
           <include name="initialise"/>
           <include name="tearDown"/>
+          <include name="GetAllLinks"/>
         </methods>
       </class> <!-- selenium.ValidateTitle -->
     </classes>

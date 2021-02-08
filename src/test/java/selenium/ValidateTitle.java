@@ -45,6 +45,16 @@ public class ValidateTitle extends Base {
 		log.info("succesfully validated text message");
 	}
 
+	// click on each link and check if the pages are opening/not
+	@Test(priority = 3)
+	public void GetAllLinks() {
+		int num = landing.getLinks().size();
+		System.out.println(num);
+		for (int i = 0; i < num; i++) {
+			System.out.println(landing.getLinks().get(i).getText());
+		}
+	}
+
 	@AfterTest
 	public void tearDown() {
 		driver.close();
