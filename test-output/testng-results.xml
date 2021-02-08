@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-08T13:53:45 IST" name="Suite" finished-at="2021-02-08T13:54:31 IST" duration-ms="45998">
+    <groups>
+    </groups>
+    <test started-at="2021-02-08T13:53:45 IST" name="Test" finished-at="2021-02-08T13:54:15 IST" duration-ms="29928">
+      <class name="selenium.ValidateTitle">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:selenium.ValidateTitle@54709809]" started-at="2021-02-08T13:53:45 IST" name="initialise" finished-at="2021-02-08T13:54:12 IST" duration-ms="27577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="VerifyTitle()[pri:1, instance:selenium.ValidateTitle@54709809]" started-at="2021-02-08T13:54:12 IST" name="VerifyTitle" finished-at="2021-02-08T13:54:14 IST" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method signature="VerifyHeader()[pri:2, instance:selenium.ValidateTitle@54709809]" started-at="2021-02-08T13:54:14 IST" name="VerifyHeader" finished-at="2021-02-08T13:54:14 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.ValidateTitle@54709809]" started-at="2021-02-08T13:54:14 IST" name="tearDown" finished-at="2021-02-08T13:54:15 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.ValidateTitle -->
+    </test> <!-- Test -->
+    <test started-at="2021-02-08T13:54:15 IST" name="Test1" finished-at="2021-02-08T13:54:31 IST" duration-ms="15494">
+      <class name="selenium.HomePageTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:selenium.HomePageTest@560cbf1a]" started-at="2021-02-08T13:54:15 IST" name="initialise" finished-at="2021-02-08T13:54:17 IST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="testPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:selenium.HomePageTest@560cbf1a]" started-at="2021-02-08T13:54:17 IST" name="testPageNavigation" data-provider="loginData" finished-at="2021-02-08T13:54:26 IST" duration-ms="9367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nimmagaddaushakiran@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ushaprasad3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method signature="testPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:selenium.HomePageTest@560cbf1a]" started-at="2021-02-08T13:54:26 IST" name="testPageNavigation" data-provider="loginData" finished-at="2021-02-08T13:54:30 IST" duration-ms="4206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nimmagaddaushakiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ushaprasad3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.HomePageTest@560cbf1a]" started-at="2021-02-08T13:54:30 IST" name="tearDown" finished-at="2021-02-08T13:54:31 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.HomePageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

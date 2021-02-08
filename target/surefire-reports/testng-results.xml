@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-08T12:15:09 IST" name="Suite" finished-at="2021-02-08T12:15:59 IST" duration-ms="50102">
+    <groups>
+    </groups>
+    <test started-at="2021-02-08T12:15:09 IST" name="Test" finished-at="2021-02-08T12:15:34 IST" duration-ms="24902">
+      <class name="selenium.ValidateTitle">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:selenium.ValidateTitle@46e8a539]" started-at="2021-02-08T12:15:09 IST" name="initialise" finished-at="2021-02-08T12:15:18 IST" duration-ms="8830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="testPageNavigation()[pri:0, instance:selenium.ValidateTitle@46e8a539]" started-at="2021-02-08T12:15:18 IST" name="testPageNavigation" finished-at="2021-02-08T12:15:18 IST" duration-ms="141" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COUfdaf232RSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COUfdaf232RSES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at selenium.ValidateTitle.testPageNavigation(ValidateTitle.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.ValidateTitle@46e8a539]" started-at="2021-02-08T12:15:19 IST" name="tearDown" finished-at="2021-02-08T12:15:34 IST" duration-ms="15108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.ValidateTitle -->
+    </test> <!-- Test -->
+    <test started-at="2021-02-08T12:15:35 IST" name="Test1" finished-at="2021-02-08T12:15:59 IST" duration-ms="24200">
+      <class name="selenium.HomePageTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:selenium.HomePageTest@669513d8]" started-at="2021-02-08T12:15:35 IST" name="initialise" finished-at="2021-02-08T12:15:37 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="testPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:selenium.HomePageTest@669513d8]" started-at="2021-02-08T12:15:37 IST" name="testPageNavigation" data-provider="loginData" finished-at="2021-02-08T12:15:53 IST" duration-ms="15999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nimmagaddaushakiran@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ushaprasad3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method signature="testPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:selenium.HomePageTest@669513d8]" started-at="2021-02-08T12:15:53 IST" name="testPageNavigation" data-provider="loginData" finished-at="2021-02-08T12:15:59 IST" duration-ms="5699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nimmagaddaushakiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ushaprasad3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.HomePageTest@669513d8]" started-at="2021-02-08T12:15:59 IST" name="tearDown" finished-at="2021-02-08T12:15:59 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.HomePageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
